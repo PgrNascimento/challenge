@@ -1,0 +1,24 @@
+#content h2 {
+  text-align: center;
+  color: #353f51;
+  font-size: 2.5em;
+  margin-top: 0;
+}
+
+#content p.game-introduction {
+  padding: 0 30px;
+  font-size: 1.6em;
+  text-align: center;
+  color: #555a66;
+  margin-bottom: 70px;
+}
+
+#content a.btn-start {
+  text-align: center;
+  background-color: #39B54A;
+  padding: 10px;
+  color: #EEEEEE;
+  margin-left: 38%;
+  font-size: 1.5em;
+  padding: 20px 100px;
+}

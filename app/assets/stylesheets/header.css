@@ -1,0 +1,25 @@
+header {
+  height: 50px;
+  width: auto;
+  background-color: #2EA1F8;
+  color: #EEEEEE;
+  line-height: 50px;
+  padding: 0 10%;
+  font-weight: bold;
+}
+
+header ul {
+  list-style-type: none;
+  display: inline;
+}
+
+header ul li {
+  float: right;
+  margin: 0 5px;
+}
+
+header h1 {
+  font-size: 1.5em;
+  float: left;
+  margin: 0;
+}
