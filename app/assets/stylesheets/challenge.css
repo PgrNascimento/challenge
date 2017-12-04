@@ -1,0 +1,33 @@
+ul.options {
+  list-style-type: none;
+  margin: 30px 0;
+}
+
+li.challenge-option {
+  background-color: #EEEEEE;
+  list-style-type: none;
+  margin-bottom: 20px;
+  padding: 15px 30px;
+  width: 85%;
+}
+
+span.category {
+  padding: 10px;
+  background-color: #1990EA;
+  color: #FFFFFF;
+}
+
+button.btn-next {
+  text-align: center;
+  background-color: #39B54A;
+  padding: 10px;
+  color: #EEEEEE;
+  margin-left: 85%;
+  font-size: 1.2em;
+  padding: 5px 25px;
+}
+
+button.btn-next:disabled {
+  background-color: #EEEEEE;
+  color: #FFF;
+}

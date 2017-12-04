@@ -33,3 +33,7 @@ a, a:visited {
   text-decoration: none;
 }
 
+a, button, span{
+  border-radius: 5px;
+}
+
