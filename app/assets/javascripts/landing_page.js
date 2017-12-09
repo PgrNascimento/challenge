@@ -1,6 +1,6 @@
 jQuery(function($){
   $('a').click(function() {
-   $.get('/challenges/new', function(data) {
+   $.get('/questions/new', function(data) {
      $('div#content').html(data);
    });
   });

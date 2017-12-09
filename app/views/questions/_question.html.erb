@@ -1,14 +1,14 @@
 <div>
-  <p class="question">
-    <%= challenge.question %>
+  <p class="description">
+    <%= question.description %>
   </p>
   <span class="category">
-    <%= challenge.category %>
+    <%= question.category %>
   </span>
 </div>
 
 <ul class="options">
-  <% challenge.options.each_with_index do |option, index| %>
+  <% question.options.each_with_index do |option, index| %>
     <% count = index + 1 %>
     <li class="challenge-option">
       <%= radio_button_tag('option', count) %>
@@ -22,11 +22,12 @@
 <% else %>
   <button id="btn-next" class='btn-next' disabled="true">Next</button>
 <% end %>
+
 <script>
 jQuery(function($){
   $('button#btn-next').click(function() {
    option = $('input:radio[name=option]:checked').val();
-   $.get('/challenges/new?option='+option, function(data) {
+   $.post('/questions', { option: option }, function(data) {
      $('div#content').html(data);
    });
   });
